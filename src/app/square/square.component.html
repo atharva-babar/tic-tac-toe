@@ -1,0 +1,21 @@
+<button nbButton hero status="info" [disabled]="disabled" *ngIf="!value">
+  {{ value }}
+</button>
+<button
+  nbButton
+  hero
+  status="success"
+  *ngIf="value == 'X'"
+  [disabled]="disabled"
+>
+  {{ value }}
+</button>
+<button
+  nbButton
+  hero
+  status="warning"
+  *ngIf="value == 'O'"
+  [disabled]="disabled"
+>
+  {{ value }}
+</button>

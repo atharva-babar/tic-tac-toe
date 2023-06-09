@@ -1,0 +1,19 @@
+main{
+    display: grid;
+    grid-template-columns: 12.5rem 12.5rem 12.5rem;
+    margin: .5rem;
+}
+
+app-square{
+    border: .0625rem gray solid;
+    height: 12.5rem;
+}
+
+button{
+    margin: .5rem;
+}
+
+h2{
+    margin: .5rem;
+}
+
